@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+  <title>Form Basic</title>
+</head>
+<body>
+  <header>
+    <div id="header">
+      <div id="h1">
+        <h1>Form Basic</h1>
+      </div>
+      <div id="img">  
+        <div id="img"><img src="menu.png"></div>
+      </div>
+    </div>
+  </header>
+
+  <div id="form">
+    <form>
+      <div id="information" >
+      <label for="name" class="label">Name:</label></br>
+      <input type="text" name="name" id="name"></br>
+
+      <label for="email" class="label">Email:</label></br>
+      <input type="email" name="email" id="email"></br>
+
+      <label for="age" class="label">Age:</label></br>
+      <input type="number" name="number" id="number"></br>
+      </div></br>
+
+      <div id="divOcuppation">
+      <label for="occupation" class="label">What's your occupation?</br>
+
+      <input type="radio" id="occupation" name=occupation id="programadorJunior">
+      <label for="programadorJunior">Programador Junior</label></br>
+
+      <input type="radio" id="occupation" name=occupation id="programadorPleno">
+      <label for="programadorPleno">Programador Pleno</label></br>
+
+      <input type="radio" id="occupation" name=occupation id="programadorSenior">
+      <label for="programadorSenior">Programador Sênior</label></br>
+
+      <input type="radio" id="occupation" name=occupation id="other1">
+      <label for="other1, textOther1">Other</label>
+      <input type="text" class="other" name=occupation id="textOther1" placeholder="Specify"></br>
+    </label></br>
+      </div>
+
+      <div id="divLanguage">
+      <label class="label">Which programming language do you aware?</br>
+      
+      <input type="checkbox" class="language" name="javaScript" id="javaScript">
+      <label for="javaScript">JavaScript</label></br>
+      
+      <input type="checkbox" class="language" name=".Net" id=".Net">
+      <label for=".net">.Net</label></br>
+
+      <input type="checkbox" class="language" name="cSharp" id="cSharp">
+      <label for="cSharp">C#</label></br>
+
+      <input type="checkbox" class="language" name="cMais" id="cMais">
+      <label for="cMais">C+</label></br>
+
+      <input type="checkbox" class="language" name="c" id="c">
+      <label for="c">C</label></br>
+
+      <input type="checkbox" class="language" name="python" id="python">
+      <label for="python">Python</label></br>
+
+      <input type="checkbox" class="language" name="other2" id="other2">
+      <label for="other2, textOther2">Other</label>
+      <input type="text" name="textOther2" id="textOther2" placeholder="Specify"></br>
+
+      </label></br>
+      </div>
+
+      <div id="divSelectLevel">
+      <label class="label" for="select">What level of english do you have?</label></br>
+        <select id="selectLevel" name="selectLevel" id="select">
+          <option name="basic">Basic</option>
+          <option name="intermediary">Intermediary</option>
+          <option name="advanced">Advanced</option>
+        </select>
+      </div></br>
+
+      <div id="textInformation">
+        <label for="textarea" class="label">This space is reserved for you, who have any questions </br>
+           or desire to add some information.</label></br>
+        <textarea id="textarea"></textarea>
+      </div>
+    </form>
+
+  </div>
+  
+  <footer>
+
+  </footer>
+
+</body>
+</html>
